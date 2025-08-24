@@ -72,7 +72,7 @@ public:
 			cout << endl;
 		}
 
-		/* bottem wall */
+		/* bottom wall */
 
 		for (int i = 0; i < width + 2; ++i) {
 			cout << '#';
@@ -175,3 +175,4 @@ int main() {
 	bounce b;
 	b.Run();
 }
+
